@@ -1,12 +1,4 @@
-/* spinner.css */
-
-/* Styling for the spinner container that covers the entire page */
 .spinner-container {
-  /* position: fixed; */
-  /* top: 0; */
-  /* left: 0; */
-  /* width: 100%; */
-  /* height: 100%; */
   margin: 20px;
   height: 400px;
   display: flex;
@@ -14,16 +6,16 @@
   align-items: center;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.1);
-  z-index: 9999; /* Set a high z-index to ensure the spinner is on top */
-  & h2 {
-    font-size: 18px;
-    font-weight: bold;
-    color: #333;
-    margin-top: 10px;
-  }
+  z-index: 9999;
 }
 
-/* Styling for the spinner animation */
+.spinner-container h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
 .spinner {
   border: 4px solid rgba(255, 255, 255, 0.3);
   border-top: 4px solid #3498db;

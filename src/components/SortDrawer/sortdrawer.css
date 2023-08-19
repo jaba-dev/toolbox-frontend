@@ -43,30 +43,32 @@
   padding: 13px;
   display: flex;
   align-items: center;
-  & svg {
-    width: 20px;
-    height: 20px;
-    /* background-color: #c00; */
-    margin-left: 6px;
-    transform: translateY(-1px);
-    stroke-width: 1;
-  }
+}
+
+.drawer-content-header button svg {
+  width: 20px;
+  height: 20px;
+  /* background-color: #c00; */
+  margin-left: 6px;
+  transform: translateY(-1px);
+  stroke-width: 1;
 }
 
 .product-listing {
   list-style: none;
-  & li {
-    & > div {
-      display: flex;
-      gap: 20px;
-      padding: 20px;
-      & > div {
-        font-family: serif;
-      }
-    }
-  }
-  & input {
-    width: 24px;
-    height: 24px;
-  }
+}
+
+.product-listing li > div {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-listing li > div > div {
+  font-family: serif;
+}
+
+.product-listing input {
+  width: 24px;
+  height: 24px;
 }

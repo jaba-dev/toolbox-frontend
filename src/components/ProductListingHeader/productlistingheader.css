@@ -2,11 +2,12 @@
   margin: 32px 0 0;
   padding: 0 30px 32px;
   /* background-color: yellowgreen; */
-  & > div {
-    /* background-color: blue; */
-    display: flex;
-    justify-content: space-between;
-  }
+}
+
+.productListing-header > div {
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
 }
 
 .productListing-text {
@@ -20,11 +21,12 @@
   display: flex;
   gap: 20px;
   align-items: center;
-  & button {
-    /* transition: border-color .15s; */
-    background: none;
-    padding: 13px 20px;
-    border: 1px solid #dededc;
-    border-radius: 200px;
-  }
+}
+
+.productListing-buttons button {
+  /* transition: border-color .15s; */
+  background: none;
+  padding: 13px 20px;
+  border: 1px solid #dededc;
+  border-radius: 200px;
 }

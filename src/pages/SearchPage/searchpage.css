@@ -19,11 +19,12 @@
   font-weight: 400;
   display: flex;
   align-items: center;
-  & span {
-    font-weight: 700;
-    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
-    color: #000;
-  }
+}
+
+.search-hits span {
+  font-weight: 700;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  color: #000;
 }
 
 @media screen and (max-width: 767px) {
@@ -35,32 +36,31 @@
 .search-buttons {
   display: flex;
   gap: 20px;
-  & button {
-    min-width: 48px;
-    min-height: 48px;
-    padding: 13px 40px;
-    background-color: #e8e8e6;
-    color: #000;
-    border: none;
-    border-radius: 24px;
-    display: flex;
-    align-items: center;
-    & span {
-      font-size: 14px;
-    }
-    & svg {
-      margin-left: 10px;
-      /* width: 16px;
-      height: 16px; */
-    }
-  }
+}
+
+.search-buttons button {
+  min-width: 48px;
+  min-height: 48px;
+  padding: 13px 40px;
+  background-color: #e8e8e6;
+  color: #000;
+  border: none;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.search-buttons button span {
+  font-size: 14px;
+}
+
+.search-buttons button svg {
+  margin-left: 10px;
 }
 
 @media screen and (max-width: 359px) {
-  .search-buttons {
-    & button {
-      padding: 13px 25px;
-    }
+  .search-buttons button {
+    padding: 13px 25px;
   }
 }
 
@@ -96,21 +96,21 @@
   width: 30%;
   max-width: 140px;
   padding-right: 20px;
-  & img {
-    max-width: 100%;
-    aspect-ratio: 1/1;
-  }
 }
 
-.product-info {
-  & h2 {
-    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
-    & a {
-      text-decoration: none;
-      color: #000;
-      font-size: 20px;
-    }
-  }
+.product-image img {
+  max-width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.product-info h2 {
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.product-info h2 a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
 }
 
 .artnr {
@@ -119,22 +119,24 @@
 
 .product-breadcrumbs {
   margin-top: 5px;
-  & ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    & li {
-      & span {
-        padding: 0 8px;
-      }
-      & a {
-        color: #868686;
-        text-decoration: none;
-      }
-    }
-  }
 }
+
+.product-breadcrumbs ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.product-breadcrumbs ul li span {
+  padding: 0 8px;
+}
+
+.product-breadcrumbs ul li a {
+  color: #868686;
+  text-decoration: none;
+}
+
 .product-breadcrumbs ul li:last-child > span {
   display: none;
 }

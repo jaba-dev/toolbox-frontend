@@ -2,11 +2,12 @@
   padding: 0 20px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  & a {
-    text-decoration: none;
-    color: #000;
-    line-height: 1.5;
-  }
+}
+
+.products a {
+  text-decoration: none;
+  color: #000;
+  line-height: 1.5;
 }
 
 @media screen and (max-width: 1279px) {
@@ -45,11 +46,11 @@
 
 .product-image-div {
   display: flex;
-  & img {
-    width: 100%;
-    aspect-ratio: 1/1;
-    /* object-fit: cover; */
-  }
+}
+
+.product-image-div img {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
 .product-details {

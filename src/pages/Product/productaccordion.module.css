@@ -20,12 +20,14 @@
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.3s;
-  & > div {
-    padding: 16px 40px;
-  }
-  & p {
-    line-height: 1.6rem;
-  }
+}
+
+.accordionContent > div {
+  padding: 16px 40px;
+}
+
+.accordionContent p {
+  line-height: 1.6rem;
 }
 
 @media screen and (max-width: 639px) {
@@ -37,13 +39,15 @@
 .table {
   /* background-color: aqua; */
   width: 100%;
-  & tbody {
-    border: 1px solid #dededc;
-  }
-  & td {
-    padding: 5px 10px;
-    margin: 4px;
-  }
+}
+
+.table tbody {
+  border: 1px solid #dededc;
+}
+
+.table td {
+  padding: 5px 10px;
+  margin: 4px;
 }
 
 .table tr:nth-child(odd) {

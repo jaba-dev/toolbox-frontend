@@ -38,14 +38,15 @@
   padding: 13px;
   display: flex;
   align-items: center;
-  & svg {
-    width: 20px;
-    height: 20px;
-    /* background-color: #c00; */
-    margin-left: 6px;
-    transform: translateY(-1px);
-    stroke-width: 1;
-  }
+}
+
+.filter-drawer-header button svg {
+  width: 20px;
+  height: 20px;
+  /* background-color: #c00; */
+  margin-left: 6px;
+  transform: translateY(-1px);
+  stroke-width: 1;
 }
 
 .filter-drawer-footer h4 {
