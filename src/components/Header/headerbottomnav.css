@@ -26,7 +26,9 @@
 }
 @media (max-width: 768px) {
   .header_bottom_nav {
+    /* position: relative; */
     height: 50px;
+    /* z-index: 50; */
   }
   .header_bottom_nav ul {
     display: none;

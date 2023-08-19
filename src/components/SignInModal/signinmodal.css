@@ -1,12 +1,11 @@
 .sign-in-modal {
   position: fixed;
-  top: -100%;
+  right: -100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   height: 100vh;
   display: flex;
   justify-content: center;
-  z-index: 4;
 }
 
 .modal-active {
