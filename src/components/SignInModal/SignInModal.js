@@ -157,7 +157,7 @@ function SignInModal({ setIsModalOpen, isModalOpen }) {
                     ? "invalid"
                     : ""
                 }
-                type="text"
+                type="password"
                 id="password"
                 value={password}
                 onChange={(e) => {
