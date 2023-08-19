@@ -62,16 +62,16 @@ function Carousel() {
         className={`${styles.carouselTrack} ${styles[slides[currentSlide]]} `}
       >
         <div>
-          <img src={`${publicURL}/images/0002.jpg`} alt="First slide" />
+          <img src={`/images/0002.jpg`} alt="First slide" />
         </div>
         <div>
-          <img src={`${publicURL}/images/0004.jpg`} alt="Second slide" />
+          <img src={`/images/0004.jpg`} alt="Second slide" />
         </div>
         <div>
-          <img src={`${publicURL}/images/0005.jpg`} alt="Third slide" />
+          <img src={`/images/0005.jpg`} alt="Third slide" />
         </div>
         <div>
-          <img src={`${publicURL}/images/0006.jpg`} alt="Fourth slide" />
+          <img src={`/images/0006.jpg`} alt="Fourth slide" />
         </div>
       </div>
       <button
