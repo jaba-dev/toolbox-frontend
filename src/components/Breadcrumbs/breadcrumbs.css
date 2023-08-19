@@ -1,0 +1,28 @@
+.breadcrumbs {
+  padding: 0 20px;
+  margin: 13px 0;
+}
+
+.breadcrumbs ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  display: flex;
+}
+
+.breadcrumbs ul li:not(:last-child)::after {
+  content: "/";
+  margin: 0 5px;
+}
+
+.breadcrumbs ul li:last-child a {
+  pointer-events: none;
+  /* cursor: vertical-text; */
+  color: #000;
+}
+
+.breadcrumbs ul li a {
+  text-decoration: none;
+  color: #0071b9;
+}

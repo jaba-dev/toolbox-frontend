@@ -1,0 +1,9 @@
+.under-construction-page h1 {
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.under-construction-page p {
+  text-align: center;
+  margin: 10px 0;
+}

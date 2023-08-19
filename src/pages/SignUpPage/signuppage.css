@@ -1,0 +1,128 @@
+.sign-up-container {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sign-up-container h1 {
+  margin-bottom: 10px;
+}
+
+.sign-up-form {
+  width: 100%;
+  max-width: 400px;
+  padding-bottom: 40px;
+}
+
+.sign-up-form label {
+  padding: 6px 0;
+}
+
+.sign-up-form input[type="text"],
+.sign-up-form input[type="password"] {
+  height: 36px;
+  outline: none;
+  border: 1px solid #d5d5d5;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.sign-up-form input[type="text"].valid,
+.sign-up-form input[type="password"].valid {
+  border-width: 2px;
+  border-color: green;
+}
+
+.sign-up-form input[type="text"].invalid,
+.sign-up-form input[type="password"].invalid {
+  border-width: 2px;
+  border-color: orange;
+}
+
+.sign-up-username-container,
+.sign-up-email-container,
+.sign-up-password-container,
+.sign-up-password-confirm-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.sign-up-terms-container {
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: flex-start;
+  color: #1e1e1e;
+  margin-bottom: 10px;
+}
+
+.sign-up-terms-container input {
+  margin-top: 1px;
+  margin-right: 6px;
+}
+
+.sign-up-terms-container,
+.sign-up-terms-container a {
+  font-size: 13px;
+  margin-left: 6px;
+  color: #1e1e1e;
+}
+
+.submit-info,
+.error-info {
+  text-align: center;
+  color: #ff3d3d;
+}
+
+.success-info {
+  text-align: center;
+  color: #007bff;
+}
+
+.sign-up-button-container {
+  margin: 20px 0;
+  padding: 15px;
+}
+
+.sign-up-button-container button {
+  background-color: #646464;
+  color: #fff;
+  height: 36px;
+  min-width: 36px;
+  padding: 0 15px;
+  border: none;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.sign-up-button-container button:hover {
+  background-color: #8c8c8c;
+}
+
+.terms-component {
+  position: relative;
+  border: 1px solid grey;
+  padding: 10px;
+  height: 300px;
+  overflow: auto;
+}
+
+.terms-component h1 {
+  text-align: center;
+}
+
+.terms-exit {
+  display: flex;
+  justify-content: flex-end;
+  height: 36px;
+}
+
+.terms-exit button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #646464;
+  border: none;
+  min-width: 36px;
+  height: 36px;
+}

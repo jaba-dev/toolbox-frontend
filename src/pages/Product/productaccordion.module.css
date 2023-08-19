@@ -1,0 +1,51 @@
+.accordion {
+  padding: 0 20px;
+  margin-bottom: 26px;
+}
+.accordionButton {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 25px 40px;
+  border: 1px #dededc solid;
+  background-color: #fff;
+}
+
+.accordionButtonActive svg {
+  transform: rotateX(135deg);
+}
+
+.accordionContent {
+  box-sizing: border-box;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s;
+  & > div {
+    padding: 16px 40px;
+  }
+  & p {
+    line-height: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .accordionContent > div {
+    padding: 16px 0;
+  }
+}
+
+.table {
+  /* background-color: aqua; */
+  width: 100%;
+  & tbody {
+    border: 1px solid #dededc;
+  }
+  & td {
+    padding: 5px 10px;
+    margin: 4px;
+  }
+}
+
+.table tr:nth-child(odd) {
+  background-color: #f8f8f8;
+}

@@ -1,0 +1,176 @@
+.productListing {
+  margin: 32px 0 0;
+  /* padding: 0 20px; */
+}
+
+.productListingHeader {
+  padding: 0 30px 32px;
+  /* background-color: yellowgreen; */
+  & > div {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.productListingText {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+}
+
+.productListingButtons {
+  /* background-color: violet; */
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  & button {
+    /* transition: border-color .15s; */
+    background: none;
+    padding: 13px 20px;
+    border: 1px solid #dededc;
+    border-radius: 200px;
+  }
+}
+
+.products {
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  & a {
+    text-decoration: none;
+    color: #000;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .products {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 1139px) {
+  .products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .products {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.product {
+  padding: 0 10px 40px;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+}
+.product * {
+  flex: 1;
+}
+
+.productImageDiv {
+  display: flex;
+  /* background-color: #ff8600; */
+  /* padding: 5px; */
+  & img {
+    width: 100%;
+    aspect-ratio: 1/1;
+  }
+}
+
+.productDetails {
+  /* background-color: red; */
+  position: relative;
+  padding-bottom: 80px;
+}
+
+.price {
+  padding: 6px;
+}
+
+.name {
+  display: block;
+  padding: 6px;
+}
+
+.brand {
+  padding: 6px;
+  margin: 0;
+}
+
+.articleNum {
+  padding: 6px;
+}
+
+.addBtn {
+  margin: 0 auto;
+  /* display: block; */
+  border: none;
+  min-width: 48px;
+  min-height: 48px;
+
+  border-radius: 50%;
+  background-color: #ff8600;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: all 0.3s;
+}
+
+.addBtn:hover {
+  background-color: #fff;
+  color: #ff8600;
+}
+
+/********** SORT BY DRAWER **********/
+
+.drawer {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  transition: right 0.3s;
+}
+
+.drawerExpanded {
+  right: 0;
+}
+
+.drawerContent {
+  background-color: rgb(235, 232, 238);
+  width: 70%;
+}
+
+.productListing {
+  list-style: none;
+  & li {
+    & > div {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+      & > div {
+        font-family: serif;
+      }
+    }
+  }
+  & input {
+    width: 24px;
+    height: 24px;
+  }
+}

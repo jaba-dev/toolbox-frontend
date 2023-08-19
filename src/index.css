@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  width: 100%;
+}
+
+.popup-open {
+  overflow: hidden;
+}
+
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+div {
+  font-weight: 700;
+}

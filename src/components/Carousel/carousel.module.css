@@ -1,0 +1,95 @@
+.carousel {
+  height: 400px;
+  margin: 0 auto 0;
+  position: relative;
+  margin-bottom: 60px;
+  padding: 0 20px;
+  & button {
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 50%;
+    height: 50px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  & button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}
+.prevButton {
+  left: 20px;
+  border-radius: 0 3px 3px 0;
+  z-index: 1;
+}
+.nextButton {
+  right: 20px;
+  border-radius: 3px 0 0 3px;
+  z-index: 1;
+}
+
+.carouselTrack {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  & div {
+    min-width: 100%;
+    display: flex;
+    transition: transform 0.5s;
+  }
+  & img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+.first {
+  & div {
+    transform: translateX(0);
+  }
+}
+
+.second {
+  & div {
+    transform: translateX(-100%);
+  }
+}
+.third {
+  & div {
+    transform: translateX(-200%);
+  }
+}
+.fourth {
+  & div {
+    transform: translateX(-300%);
+  }
+}
+
+.bullets {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  height: 15px;
+  transform: translateX(-50%);
+  bottom: -30px;
+  & span {
+    width: 15px;
+    height: 15px;
+    background-color: #bbb;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 0 2px;
+    transition: 0.5s ease-in-out;
+  }
+  & span:hover {
+    background-color: #717171;
+  }
+}

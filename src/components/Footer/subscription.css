@@ -1,0 +1,17 @@
+.subscription-info {
+  padding: 0 13px;
+  margin-top: 20px;
+  /* background-color: #fff; */
+  /* display: flex; */
+}
+
+.submit-info,
+.error-info {
+  text-align: center;
+  color: #ff3d3d !important;
+}
+
+.success-info {
+  text-align: center;
+  color: #007bff !important;
+}

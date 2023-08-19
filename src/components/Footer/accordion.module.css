@@ -1,0 +1,53 @@
+.accordionButton {
+  /* background-color: yellow; */
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  /* background: #333333; */
+  transition: background-color 0.3s;
+}
+
+/* .accordionButtonActive svg {
+  animation: active 1s; 
+  background-color: red !important; 
+} */
+.chevron {
+  /* background-color: red; */
+  transition: transform 0.3s;
+}
+.chevronActive {
+  transform: rotateX(180deg);
+  /* transform: scale(1.4); */
+}
+.accordionContent {
+  box-sizing: border-box;
+  overflow: hidden;
+  max-height: 0;
+  /* background-color: #eeeeee; */
+  transition: max-height 0.3s;
+  /* padding: 16px 20px; */
+}
+
+.accordionContent ul {
+  margin: 10px 0 16px;
+  padding: 16px 20px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.accordionContent ul li {
+  margin: 10px 0;
+  color: #1e1e1e;
+  font-size: 13px;
+}
+.accordionContent ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #00bcd4;
+}

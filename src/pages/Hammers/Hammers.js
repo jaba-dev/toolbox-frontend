@@ -1,0 +1,142 @@
+import { useState, useEffect, useContext } from "react";
+import { AppContext } from "../../App";
+import Pagination from "../../components/Pagination/Pagination";
+import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
+import ProductList from "../../components/ProductList/ProductList";
+import ProductListingHeader from "../../components/ProductListingHeader/ProductListingHeader";
+import SortDrawer from "../../components/SortDrawer/SortDrawer";
+import UseFetch from "../../components/Hooks/useFetch";
+import Spinner from "../../components/Spinner/Spinner";
+import RootLayout from "../../components/Layouts/RootLayout";
+
+function Hammers() {
+  const {
+    baseURL,
+    windowWidth,
+    initialState,
+    setInitialState,
+    cartUpdate,
+    setCartUpdate,
+    cart,
+    setCart,
+  } = useContext(AppContext);
+  const [products, setProducts] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [productsPerPage] = useState(10);
+  const [drawerExpanded, setDrawerExpanded] = useState(false);
+  const [sortByRecommended, setSortByRecommended] = useState(true);
+  const [sortByPriceAsc, setSortByPriceAsc] = useState(false);
+  const [sortByPriceDesc, setSortByPriceDesc] = useState(false);
+  const { data, loading, error } = UseFetch(`${baseURL}/api/products`, {});
+  const addToCart = (articleNumber) => {
+    const existingItem = cart.find(
+      (item) => item.articleNumber === articleNumber
+    );
+
+    if (existingItem) {
+      setCart(
+        cart.map((item) =>
+          item.articleNumber === articleNumber
+            ? { ...item, quantity: item.quantity + 1 }
+            : item
+        )
+      );
+    } else {
+      setCart([...cart, { articleNumber, quantity: 1 }]);
+    }
+  };
+
+  useEffect(() => {
+    if (sortByPriceAsc) {
+      setProducts((prevState) => {
+        return prevState.sort(
+          (a, b) => parseFloat(a.price) - parseFloat(b.price)
+        );
+      });
+    }
+    if (sortByPriceDesc) {
+      setProducts((prevState) => {
+        return prevState.sort(
+          (a, b) => parseFloat(b.price) - parseFloat(a.price)
+        );
+      });
+    }
+    if (sortByRecommended) {
+      setProducts((prevState) => {
+        return prevState.sort((a, b) => a.id - b.id);
+      });
+    }
+  }, [sortByPriceAsc, sortByPriceDesc, sortByRecommended]);
+
+  useEffect(() => {
+    // if (loading) {
+    //   console.log(loading);
+    // }
+    if (data) {
+      const filteredData = data.filter((item) => {
+        if (
+          item.name.toLowerCase().includes("hammer") &&
+          item.categories.includes("hand tools")
+        ) {
+          return item;
+        }
+      });
+      setProducts(filteredData);
+    }
+    // if (error) {
+    //   console.log(error);
+    // }
+  }, [data, loading, error]);
+
+  const indexOfLastProduct = currentPage * productsPerPage;
+  const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
+  const currentProducts = products.slice(
+    indexOfFirstProduct,
+    indexOfLastProduct
+  );
+  const paginate = (pageNumber) => [setCurrentPage(pageNumber)];
+
+  if (loading) {
+    return (
+      <RootLayout>
+        <Spinner />
+      </RootLayout>
+    );
+  }
+  return (
+    <RootLayout>
+      <Breadcrumbs />
+      <ProductListingHeader
+        windowWidth={windowWidth}
+        drawerExpanded={drawerExpanded}
+        setDrawerExpanded={setDrawerExpanded}
+        products={products}
+      />
+      <ProductList
+        currentProducts={currentProducts}
+        addToCart={addToCart}
+        setCartUpdate={setCartUpdate}
+        cartUpdate={cartUpdate}
+        baseURL={baseURL}
+      />
+      <Pagination
+        productsPerPage={productsPerPage}
+        totalProducts={products.length}
+        paginate={paginate}
+        currentPage={currentPage}
+      />
+      <SortDrawer
+        drawerExpanded={drawerExpanded}
+        setDrawerExpanded={setDrawerExpanded}
+        sortByPriceAsc={sortByPriceAsc}
+        setSortByPriceAsc={setSortByPriceAsc}
+        sortByPriceDesc={sortByPriceDesc}
+        setSortByPriceDesc={setSortByPriceDesc}
+        setSortByRecommended={setSortByRecommended}
+        sortedByRecommended={sortByRecommended}
+      />
+    </RootLayout>
+  );
+}
+
+export default Hammers;

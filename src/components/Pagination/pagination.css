@@ -1,0 +1,25 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.pagination-button {
+  border: none;
+  padding: 13px 20px;
+  background-color: #00a9e0;
+  transition: all 0.3s;
+  color: #fff;
+  margin: 0 25px;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 459px) {
+  .pagination-button {
+    margin: 0 15px;
+  }
+}
+
+.pagination-button:hover {
+  background-color: #007ca0;
+}

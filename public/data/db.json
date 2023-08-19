@@ -1,0 +1,854 @@
+ [
+    {
+      "id": 1,
+      "name": "Carpenter's Hammer, fibreglass",
+      "description": "Handy hammer with fibreglass shaft and curved claw. The curved claw is gentle when pulling nails, with minimised risk of impacting the underlying material, which makes the hammer ideal for fine carpentry and lighter finishing work indoors.",
+      "imageURL": "002_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "ToolGuru",
+      "family": "hammer",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "weight": "450g",
+        "material": "EN9 steel"
+      },
+      "price": "19.90",
+      "articleNumber": "16-147"
+    },
+    {
+      "id": 2,
+      "name": "Circular Saw CS 185",
+      "description": "With laser showing the saw line and quick cutting depth setting.",
+      "imageURL": "001_1.jpg",
+      "categories": [
+        "tools",
+        "power tools",
+        "all products"
+      ],
+      "brand": "RoyalCraft",
+      "family": "circular saw",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "weight": "4,3 kg",
+        "blade_diameter": "185 mm",
+        "centre_hole": "16 mm",
+        "teeth": "24 pcs (included blade)",
+        "voltage": "230 V",
+        "rated_output_power": "1300 W",
+        "saw_depth": "63 mm (90°)",
+        "saw__depth": "42 mm (45°)"
+      },
+      "articleNumber": "17-0023",
+      "price": "136.50"
+    },
+    {
+      "id": 3,
+      "name": "Hand saw, 22\"/R7",
+      "description": "Dovetail saw with hardened, straight teeth, ergonomic two-component handle, with angles for marking 45° and 90°, and blade with anti-friction and anti-corrosion coating. The saw is designed for coarse cutting dry wood across the grain. The tooth pattern enables high cutting efficiency and cuts on both the pull stroke and push stroke.",
+      "imageURL": "003_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "PowerGrip",
+      "family": "handsaw",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "length": "550 mm",
+        "thickness": "0,85 mm (Blade)"
+      },
+      "articleNumber": "16-732",
+      "price": "24.90"
+    },
+    {
+      "id": 4,
+      "name": "Slotted screwdriver SL6 x 100 mm",
+      "description": "Slotted screwdriver of very high quality. The slightly cross-shaped 2-component handle with synthetic rubber grooves greatly increases grip strength and ensures a steady hand at high torques. The hexagonal shaft provides additional options for increasing screwing force using a spanner. The shaft and tip are highly durable and forged in the same material as high-quality steel bits.",
+      "imageURL": "004_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "ToolGuru",
+      "reviews": [],
+      "relatedPproducts": [],
+      "specifications": {
+        "length": "100 mm",
+        "material": "S2 steel (shaft)",
+        "material_": "PP + TPR (handle)",
+        "type": "SL6"
+      },
+      "articleNumber": "71-540",
+      "price": "8.75"
+    },
+    {
+      "id": 5,
+      "name": "Phillips screwdriver PH2 x 100 mm",
+      "description": "Phillips (PH) screwdriver of very high quality. The slightly cross-shaped 2-component handle with synthetic rubber grooves greatly increases grip strength and ensures a steady hand at high torques. The hexagonal shaft provides additional options for increasing screwing force using a spanner. The shaft and tip are highly durable and forged in the same material as high-quality steel bits.",
+      "imageURL": "005_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "PowerGrip",
+      "reviews": [],
+      "relatedPproducts": [],
+      "specifications": {
+        "length": "100 mm",
+        "material": "S2 steel (shaft)",
+        "material_": "PP + TPR (handle)",
+        "type": "PH2"
+      },
+      "articleNumber": "71-549",
+      "price": "7.50"
+    },
+    {
+      "id": 6,
+      "name": "Spirit level",
+      "description": "Spirit level with three vials for horizontal, vertical, and 45º levelling. Metal contact surfaces, one with V strip and one magnetic. The design of the spirit level provides enables all-round reading.",
+      "imageURL": "006_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "RoyalCraft",
+      "reviews": [],
+      "relatedPproducts": [],
+      "specifications": {
+        "length": "225 mm",
+        "material": "ABS",
+        "accuracy": "1 mm/m (0,057°)"
+      },
+      "articleNumber": "16-2021",
+      "price": "7.50"
+    },
+    {
+      "id": 7,
+      "name": "Digital multimeter",
+      "description": "Compact all-round multimeter with retractable stand, LCD display and protection against high voltages and currents.  The instrument measures DC and AC voltage, DC, and resistance in five different measurement ranges, and tests LEDs, connections, and 1.5 and 9 V batteries.",
+      "imageURL": "007_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "ToolGuru",
+      "reviews": [],
+      "relatedPproducts": [],
+      "specifications": {
+        "battery_type": "6LR61, 9V",
+        "operating_temperature": "0-50 °C (<70% RF)",
+        "storage_temperature": "-20-60 °C (<80% RF)",
+        "aC_voltage": "-200-300 V (AC)",
+        "dC_voltage": "-20-200-2000 V (DC)"
+      },
+      "articleNumber": "15-133",
+      "price": "29.90"
+    },
+    {
+      "id": 8,
+      "name": "Woodworking chisel, 22 mm",
+      "description": "Woodworking chisel with full-length hardened blade. With strike cap and a ergonomic two-component handle. Edge guard included.",
+      "imageURL": "010_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "PowerGrip",
+      "reviews": [],
+      "relatedPproducts": [],
+      "specifications": {
+        "material": "CrV-steel (shaft)",
+        "material_": "Wood (handle)"
+      },
+      "articleNumber": "16-2607",
+      "price": "17.50"
+    },
+    {
+      "name": "Combination pliers, 200 mm",
+      "description": "Combination pliers with side cutters, pipe grip, cross-grooved jaws, and comfortable, ergonomic two-piece handle. In corrosion-resistant, fully chromed design.",
+      "imageURL": "011_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "RoyalCraft",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "material": "CrV steel",
+        "length": "200 mm"
+      },
+      "articleNumber": "71-071",
+      "price": "13.90",
+      "id": 9
+    },
+    {
+      "name": "Spirit level 1200mm",
+      "description": "Heavy-duty spirit level with rectangular frame and three vials for horizontal, vertical, 45° levelling. With milled contact surface and impact-resistant rubber end caps.",
+      "imageURL": "012_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "ToolGuru",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "material": "Aluminium",
+        "accuracy": "0,5 mm/m"
+      },
+      "articleNumber": "71-7202",
+      "price": "35.00",
+      "id": 10
+    },
+    {
+      "name": "Trowel",
+      "description": "Masonry tool with ‘Norwegian’ cut, lacquered wooden handle, swan neck, and grinded blade. The swan neck shifts the centre of mass backwards, which makes it more ergonomic and allows the trowel to be easily hung on the edge of a mixing tub. Perfect for laying bricks and blocks.",
+      "imageURL": "013_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "PowerGrip",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "length": "180 mm"
+      },
+      "articleNumber": "87-5911",
+      "price": "14.90",
+      "id": 11
+    },
+    {
+      "name": "Notched trowel",
+      "description": "Tiling tool with double attachment and lacquered wooden handle that stiffens the blade.",
+      "imageURL": "014_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "ToolGuru",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "material": "Stainless steel",
+        "width": "130 mm",
+        "indentation": "8 mm",
+        "length": "280 mm"
+      },
+      "articleNumber": "87-5921",
+      "price": "24.90",
+      "id": 12
+    },
+    {
+      "name": "Exterior Paintbrush PRO, straight",
+      "description": "With synthetic bristles. Suitable for painting exteriors, fences and roofs. For all types of paint. With straight handle, excellent absorption, good coverage, good precision and stainless steel ferrule.",
+      "imageURL": "016_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "ToolGuru",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "brush": "Synthetic",
+        "width": "50 mm"
+      },
+      "articleNumber": "88-983",
+      "price": "6.75",
+      "id": 13
+    },
+    {
+      "name": "Utility knife, 18 mm",
+      "description": "Utility knife with rubberised grip, 5 spare blades, and automatic reloading. Retractable, lockable blade.",
+      "imageURL": "017_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "PowerGrip",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "blade_width": "18 mm",
+        "blade_length": "100 mm"
+      },
+      "articleNumber": "19-1052",
+      "price": "6.00",
+      "id": 14
+    },
+    {
+      "name": "All-purpose knife",
+      "description": "All-purpose knife with robust metal housing. Retractable, lockable blade.",
+      "imageURL": "018_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "RoyalCraft",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "material": "Zinc alloy",
+        "material_": "Carbon steel (Blade)"
+      },
+      "articleNumber": "19-352",
+      "price": "7.50",
+      "id": 15
+    },
+    {
+      "name": "Putty Flexible 100mm",
+      "description": "Stainless steel trowel with two-component handle, in the dimension 100 mm.",
+      "imageURL": "019_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "ToolGuru",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "width": "100 mm",
+        "weight": "0.08 kg"
+      },
+      "articleNumber": "86-004",
+      "price": "14.00",
+      "id": 16
+    },
+    {
+      "name": "Set square, 250 mm",
+      "description": "Classic try square with millimetre graduation. ",
+      "imageURL": "020_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "RoyalCraft",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "material": "Aluminium",
+        "measurement_length": "250 mm",
+        "width": "50 mm",
+        "thickness": "3 mm"
+      },
+      "articleNumber": "16-2116",
+      "price": "11.90",
+      "id": 17
+    },
+    {
+      "name": "Angle hook steel ruler X151",
+      "description": "Measure right angles quickly and safely with a sturdy angle hook made of solid steel. This measuring tool in the form of an L-shaped steel ruler is an indispensable tool when you need to lay out pattern pieces or measure them out on your leather and skins.",
+      "imageURL": "021_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "ToolGuru",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "dimensions": "30x20cm"
+      },
+      "articleNumber": "16-2117",
+      "price": "21.90",
+      "id": 18
+    },
+    {
+      "name": "Safety helmet",
+      "description": "Lightweight and strong plastic safety helmet. Adjustable six-point fittings with wide support straps. Good ventilation. Protects against knocks, moisture, and risks associated with low electrical voltages. Withstands temperatures between -30 °C to +50 °C. Weight: 350 g. (EU) 2016/425. EN 397+A1:2013.",
+      "imageURL": "022_1.jpg",
+      "categories": [
+        "all products"
+      ],
+      "brand": "RoyalCraft",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "color": "yellow"
+      },
+      "articleNumber": "18-491",
+      "price": "15.50",
+      "id": 19
+    },
+    {
+      "name": " Needle-nose pliers, straight",
+      "description": "Needle-nose pliers with side cutters, pipe grip, cross-grooved jaws, and comfortable, ergonomic two-piece handle. In corrosion-resistant, fully chromed design.",
+      "imageURL": "023_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "ToolGuru",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "type": "Straight jaw",
+        "jaw_depth": "47–59 mm"
+      },
+      "articleNumber": "71-068",
+      "price": "10.90",
+      "id": 20
+    },
+    {
+      "name": "Side-cutting pliers, 160 mm",
+      "description": "Side-cutting pliers with a comfortable, ergonomic two-piece handle. With corrosion-resistant, fully chromed design.",
+      "imageURL": "024_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "ToolGuru",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "material": "CrV steel",
+        "length": "160 mm",
+        "jaw_width": "12 mm",
+        "jaw_depth": "22 mm"
+      },
+      "articleNumber": "71-069",
+      "price": "11.00",
+      "id": 21
+    },
+    {
+      "name": "Combination spanner",
+      "description": "Spanner with flat shaft and thin, conical U-head.",
+      "imageURL": "025_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "ToolGuru",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "size": "17 mm",
+        "length": "210 mm",
+        "thickness": "10,9 mm"
+      },
+      "articleNumber": "10-594",
+      "price": "6.90",
+      "id": 22
+    },
+    {
+      "name": "Adjustable spanner, 10\"",
+      "description": "Fully forged, black-phosphate adjustable spanner with grinded jaws and millimetre scale for quick and precise adjustment.",
+      "imageURL": "026_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "ToolGuru",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "length": "250 mm / 10\"",
+        "jaw opening": "30 mm",
+        "material": "Carbonsteel"
+      },
+      "articleNumber": "71-3011",
+      "price": "22.90",
+      "id": 23
+    },
+    {
+      "name": "Steel tape measure, 3 m",
+      "description": "Steel tape measure with auto-stop, self-retraction, wrist strap and belt clip. Nylon-coated steel tape with both millimetre and inch graduation. Ergonomic housing with rubberised details.",
+      "imageURL": "027_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "PowerGrip",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "bandwidth": "16 mm",
+        "measurement_length": "3 m",
+        "weight": "123 g"
+      },
+      "articleNumber": "16-2930",
+      "price": "4.70",
+      "id": 24
+    },
+    {
+      "name": "Snips, straight",
+      "description": "Compound-action snips for greater cutting force and spring-loaded handles with latch. The snips have hardened blades with fine serration to prevent the sheet metal from slipping. Colour coded according to industry standard.",
+      "imageURL": "028_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "ToolGuru",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "length": "245 mm",
+        "material": "CrMo steel",
+        "type": "Straight, yellow"
+      },
+      "articleNumber": " 71-5104",
+      "price": "18.90",
+      "id": 25
+    },
+    {
+      "name": "Grout Gun",
+      "description": "Varispeed. For sealant compound and glue in cartridges.",
+      "imageURL": "029_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "RoyalCraft",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "material": "Aluminium",
+        "surface_treatment": "Powder coating",
+        "length": "230 mm"
+      },
+      "articleNumber": "19-2797",
+      "price": "11.50",
+      "id": 26
+    },
+    {
+      "name": "Rectangular file, double-cut",
+      "description": "Double-cut, rectangular file with medium cut and ergonomic two-component handle.",
+      "imageURL": "030_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "ToolGuru",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "length": "200 mm (Blade)",
+        "material": "T12 carbon steel",
+        "teeth": "14 teeth/cm"
+      },
+      "articleNumber": "20-486",
+      "price": "13.90",
+      "id": 27
+    },
+    {
+      "name": "Flat file, single-cut",
+      "description": "Single-cut flat file with medium cut and ergonomic two-component handle.",
+      "imageURL": "031_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "RoyalCraft",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "length": "200 mm (Blade)",
+        "material": "T12 carbon steel",
+        "teeth": "14 teeth/cm"
+      },
+      "articleNumber": "20-483",
+      "price": "14.90",
+      "id": 28
+    },
+    {
+      "name": "Rasp file",
+      "description": "Double-cut, halfround/rasp file with medium cut and ergonomic two-component handle.",
+      "imageURL": "032_1.jpg",
+      "categories": [
+        "tools",
+        "hand tools",
+        "all products"
+      ],
+      "brand": "PowerGrip",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "length": "200 mm",
+        "material": "Carbon steel",
+        "teeth": "14 teeth/cm"
+      },
+      "articleNumber": "20-480",
+      "price": "16.50",
+      "id": 29
+    },
+    {
+      "name": "Cutting & Mitre Saw MS 210C",
+      "description": "Robust machine for cutting strips, boards and planks. Equipped with pull-saw function, laser and depth-stop for groove cutting, and quick modes for mitring angles. Supplied with table widening kit, clamp, dust bag and saw blade.",
+      "imageURL": "033_1.jpg",
+      "categories": [
+        "tools",
+        "power tools",
+        "all products"
+      ],
+      "brand": "PowerGrip",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "model": "MS 210C",
+        "voltage": "220-240 V",
+        "power": "1500 W",
+        "shaft": "Ø 210 x 30 x 3 mm",
+        "sawdust_connection": "40 mm",
+        "weight": "9,8 kg",
+        "mitre_angle": "0-47 ° (r/l)",
+        "tilt_angle": "0-45 °",
+        "saw_depth": "70 mm (straight blade)",
+        "saw_width": "220 mm (straight blade)"
+      },
+      "articleNumber": "17-6890",
+      "price": "319.90",
+      "id": 30
+    },
+    {
+      "name": "Table Saw 1800W",
+      "description": "For cutting wood. With stand, side table, carbide blade, push block, rip fence, mitre fence, adjustment tools, overload protection and vacuum cleaner connection.",
+      "imageURL": "034_1.jpg",
+      "categories": [
+        "tools",
+        "power tools",
+        "all products"
+      ],
+      "brand": "ToolGuru",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "power": "1800 W",
+        "saw_blade": "250 x 16 – 30 mm",
+        "saw_blade_": "thickness 2.0-4.0 mm (max.)",
+        "saw_height": "85 mm (max.)",
+        "weight": "22 kg",
+        "voltage": "230 V"
+      },
+      "articleNumber": "17-459",
+      "price": "429.90",
+      "id": 31
+    },
+    {
+      "name": "Wheel impact wrench",
+      "description": "Lightweight, very powerful nut driver. For fitting/removal of wheel bolts/nuts. Rubber-clad handle for optimal comfort. Easy to change rotational direction (right/left) with the switch. 4 impact sockets supplied (17, 19, 21 and 22 mm). Comes in a plastic storage bag.",
+      "imageURL": "035_1.jpg",
+      "categories": [
+        "tools",
+        "power tools",
+        "all products"
+      ],
+      "brand": "RoyalCraft",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "voltage": "230 V AC",
+        "power": "1010 W",
+        "torque": "450 Nm",
+        "rotational_speed": "2200 rpm",
+        "weight": "3,9 kg"
+      },
+      "articleNumber": "17-185",
+      "price": "99.90",
+      "id": 32
+    },
+    {
+      "name": "Cordless drill 12V",
+      "description": "Flexible cordless drill and screwdriver with built in LED-light and removable 12V Li-Ion battery. Keyless chuck  0,8-10mm. Left and right drive.",
+      "imageURL": "037_1.jpg",
+      "categories": [
+        "tools",
+        "power tools",
+        "all products"
+      ],
+      "brand": "RoyalCraft",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "motor": "550 W",
+        "rotational_speed": "0-900 rpm",
+        "max_torque": "15 Nm",
+        "chuck": "0,8-10 mm",
+        "weight": "1,2 kg",
+        "battery_oltage": "12 V",
+        "battery_capacity": "1,3 Ah"
+      },
+      "articleNumber": "17-335",
+      "price": "119.90",
+      "id": 33
+    },
+    {
+      "name": "Hammer Drill 1200 SDS +",
+      "description": "For impact drilling, drilling and chiselling. 3 drill bits and 2 chisels included. Tool socket SDS +.\n\n",
+      "imageURL": "039_1.jpg",
+      "categories": [
+        "tools",
+        "power tools",
+        "all products"
+      ],
+      "brand": "ToolGuru",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "voltage": "230 V",
+        "power": "1250 W",
+        "rotational_speed": "850 rpm",
+        "percussive energy": "5 J",
+        "capacity": "Concrete: 30mm",
+        "capacity_": "Metal: 13mm",
+        "capacity__": "Wood: 40mm",
+        "weight": "4,9kg",
+        "electrical_cable": "3m."
+      },
+      "articleNumber": "17-402",
+      "price": "309.50",
+      "id": 34
+    },
+    {
+      "name": "Multi-tool MFT 180",
+      "description": "Perfect for precision work on smaller surfaces and in corners! Oscillating tool with several areas of use. Supplied with a scraper, saw blade and sanding disc with 3 sanding roundels with velcro fastening.",
+      "imageURL": "040_1.jpg",
+      "categories": [
+        "tools",
+        "power tools",
+        "all products"
+      ],
+      "brand": "PowerGrip",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "model": "mft 180",
+        "power": "250 W",
+        "sanding_area": "75X75 mm"
+      },
+      "articleNumber": "17-198",
+      "price": "94.90",
+      "id": 35
+    },
+    {
+      "name": "Drill and Screwdriver HDB 18V",
+      "description": "Robust screwdriver with brushless motor, metal chuck and impact function. Stepless speed. Forwards/backwards. LED light. Belt hook.\n\n\n\nNOTE! Battery and charger sold separately. Part of the MultiX 18 V series with common 18 V battery (Li-ion).",
+      "imageURL": "041_1.jpg",
+      "categories": [
+        "tools",
+        "power tools",
+        "all products"
+      ],
+      "brand": "RoyalCraft",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "rotational_speed": "0-500 / 0-1700 rpm",
+        "hammering_speed": "0-7500 / 0-25500",
+        "max_torque": "50 Nm",
+        "chuck": "2-13 mm",
+        "weight": "1,0 kg",
+        "battery": "18V Li-ion / MultiX"
+      },
+      "articleNumber": "18-319",
+      "price": "169.90",
+      "id": 36
+    },
+    {
+      "name": "Jigsaw JS 18 V",
+      "description": "Stable jigsaw with parallel guide and multi-angle base in cast aluminium. With blade quick-clamp, rubber-clad handle, and LED light. The blade has 4-step adjustable pendulum motion. For sawing in wood, plastic and metal. Supplied with one wood saw blade.\n\n\n\nNOTE! Battery and charger sold separately.",
+      "imageURL": "042_1.jpg",
+      "categories": [
+        "tools",
+        "power tools",
+        "all products"
+      ],
+      "brand": "ToolGuru",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "battery voltage": "18 V",
+        "battery type": "Li-ion (MultiX)",
+        "rotational speed": "2400 rpm",
+        "tilt angle": "0–45 °",
+        "saw blade attachment": "Type A",
+        "stroke length": "25 mm",
+        "weight": "1,7 kg"
+      },
+      "articleNumber": "18-308",
+      "price": "115.50",
+      "id": 37
+    },
+    {
+      "name": "Angle Grinder AG 125P2",
+      "description": "Compact and powerful with a motor that produces a full 1100 W. Low gear housing of metal. Adjustable spark guard and electronic stop function which activates when the carbon brush becomes worn. Max. disc size: Ø 125 x 6 mm Spindle lock for easy tool changing. Comes with a support handle and pin key.",
+      "imageURL": "043_1.jpg",
+      "categories": [
+        "tools",
+        "power tools",
+        "all products"
+      ],
+      "brand": "PowerGrip",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "voltage": "230 V AC",
+        "power": "1100 W",
+        "rotational_speed": "11 500 rpm",
+        "sanding_plate": "125 x 6 mm",
+        "weight": "2 kg",
+        "tool_bracket": "Spindle lock (M14)"
+      },
+      "articleNumber": "17-743",
+      "price": "174.90",
+      "id": 38
+    },
+    {
+      "name": "Angle Grinder 180C",
+      "description": "Powerful model, equipped with adjustable rear handle, spindle lock and quick-locking spark guard.",
+      "imageURL": "044_1.jpg",
+      "categories": [
+        "tools",
+        "power tools",
+        "all products"
+      ],
+      "brand": "RoyalCraft",
+      "reviews": [],
+      "relatedProducts": [],
+      "specifications": {
+        "voltage": "\t230 V AC",
+        "power": "2000 W",
+        "rotational_speed": "8500 rpm",
+        "sanding_plate": "180 x 6 mm",
+        "weight": "4,9 kg",
+        "tool_bracket": "Spindle lock (M14)",
+        "cable_length": "2 m"
+      },
+      "articleNumber": "17-828",
+      "price": "195.90",
+      "id": 39
+    }
+  ]
