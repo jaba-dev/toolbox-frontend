@@ -1,7 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
-import { useParams, useLocation, Link } from "react-router-dom";
-import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
+import { useLocation, Link } from "react-router-dom";
 import { ReactComponent as BarsSortIcon } from "../../assets/icons/bars-sort-icon.svg";
 import { ReactComponent as Customize } from "../../assets/icons/customize.svg";
 import "./searchpage.css";
@@ -11,6 +9,7 @@ import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import useFetch from "../../components/Hooks/useFetch";
 import RootLayout from "../../components/Layouts/RootLayout";
 import Spinner from "../../components/Spinner/Spinner";
+import FilterDrawer from "../../components/FilterDrawer/FilterDrawer";
 
 function SearchPage() {
   const { baseURL, prevSearchValue } = useContext(AppContext);
@@ -24,7 +23,7 @@ function SearchPage() {
   const [sortByRecommended, setSortByRecommended] = useState(true);
   const [sortByPriceAsc, setSortByPriceAsc] = useState(false);
   const [sortByPriceDesc, setSortByPriceDesc] = useState(false);
-
+  const [filterDrawerExpanded, setFilterDrawerExpanded] = useState(false);
   const { data, loading, error } = useFetch(`${baseURL}/api/products`, {});
 
   useEffect(() => {
@@ -36,12 +35,16 @@ function SearchPage() {
     if (data) {
       if (queryParamValue) {
         const searchResults = data.filter((item) => {
-          return item.name.toLowerCase().includes(queryParamValue);
+          return item.name
+            .toLowerCase()
+            .includes(queryParamValue.toLowerCase());
         });
         setProducts(searchResults);
       } else if (prevSearchValue) {
         const searchResults = data.filter((item) => {
-          return item.name.toLowerCase().includes(prevSearchValue);
+          return item.name
+            .toLowerCase()
+            .includes(prevSearchValue.toLowerCase());
         });
         setProducts(searchResults);
       }
@@ -147,6 +150,10 @@ function SearchPage() {
           })}
         </div>
       </div>
+      <FilterDrawer
+        filterDrawerExpanded={filterDrawerExpanded}
+        setFilterDrawerExpanded={setFilterDrawerExpanded}
+      />
       <SortDrawer
         drawerExpanded={drawerExpanded}
         setDrawerExpanded={setDrawerExpanded}

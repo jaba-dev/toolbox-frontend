@@ -50,9 +50,9 @@ function SignUpPage() {
 
   const register = async () => {
     const newUser = {
-      username: username,
-      email: email,
-      password: password,
+      username: username.toLowerCase(),
+      email: email.toLowerCase(),
+      password: password.toLowerCase(),
     };
 
     try {

@@ -35,8 +35,8 @@ function SignInModal({ setIsModalOpen, isModalOpen }) {
   const signIn = async () => {
     try {
       const user = {
-        email: email,
-        password: password,
+        email: email.toLowerCase(),
+        password: password.toLowerCase(),
       };
       const response = await fetch(`${baseURL}/api/users/login`, {
         method: "POST",

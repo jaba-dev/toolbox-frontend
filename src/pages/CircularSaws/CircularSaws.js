@@ -8,6 +8,7 @@ import SortDrawer from "../../components/SortDrawer/SortDrawer";
 import useFetch from "../../components/Hooks/useFetch";
 import RootLayout from "../../components/Layouts/RootLayout";
 import Spinner from "../../components/Spinner/Spinner";
+import FilterDrawer from "../../components/FilterDrawer/FilterDrawer";
 function CircularSaws() {
   const { baseURL, windowWidth, cartUpdate, setCartUpdate, cart, setCart } =
     useContext(AppContext);
@@ -18,6 +19,7 @@ function CircularSaws() {
   const [sortByRecommended, setSortByRecommended] = useState(true);
   const [sortByPriceAsc, setSortByPriceAsc] = useState(false);
   const [sortByPriceDesc, setSortByPriceDesc] = useState(false);
+  const [filterDrawerExpanded, setFilterDrawerExpanded] = useState(false);
   const { data, loading, error } = useFetch(`${baseURL}/api/products`, {});
 
   const addToCart = (articleNumber) => {
@@ -100,6 +102,8 @@ function CircularSaws() {
     <RootLayout>
       <Breadcrumbs />
       <ProductListingHeader
+        filterDrawerExpanded={filterDrawerExpanded}
+        setFilterDrawerExpanded={setFilterDrawerExpanded}
         windowWidth={windowWidth}
         drawerExpanded={drawerExpanded}
         setDrawerExpanded={setDrawerExpanded}
@@ -122,7 +126,10 @@ function CircularSaws() {
       ) : (
         ""
       )}
-
+      <FilterDrawer
+        filterDrawerExpanded={filterDrawerExpanded}
+        setFilterDrawerExpanded={setFilterDrawerExpanded}
+      />
       <SortDrawer
         drawerExpanded={drawerExpanded}
         setDrawerExpanded={setDrawerExpanded}

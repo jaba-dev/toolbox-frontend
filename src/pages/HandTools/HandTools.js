@@ -1,7 +1,5 @@
 import { useState, useEffect, useContext } from "react";
 import { AppContext } from "../../App";
-import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
 import Pagination from "../../components/Pagination/Pagination";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import ProductList from "../../components/ProductList/ProductList";
@@ -10,6 +8,7 @@ import SortDrawer from "../../components/SortDrawer/SortDrawer";
 import useFetch from "../../components/Hooks/useFetch";
 import RootLayout from "../../components/Layouts/RootLayout";
 import Spinner from "../../components/Spinner/Spinner";
+import FilterDrawer from "../../components/FilterDrawer/FilterDrawer";
 function HandTools() {
   const { baseURL, windowWidth, cartUpdate, setCartUpdate, cart, setCart } =
     useContext(AppContext);
@@ -20,6 +19,7 @@ function HandTools() {
   const [sortByRecommended, setSortByRecommended] = useState(true);
   const [sortByPriceAsc, setSortByPriceAsc] = useState(false);
   const [sortByPriceDesc, setSortByPriceDesc] = useState(false);
+  const [filterDrawerExpanded, setFilterDrawerExpanded] = useState(false);
   const { data, loading, error } = useFetch(`${baseURL}/api/products`, {});
 
   const addToCart = (articleNumber) => {
@@ -96,10 +96,11 @@ function HandTools() {
   }
 
   return (
-    <>
-      <Header />
+    <RootLayout>
       <Breadcrumbs />
       <ProductListingHeader
+        filterDrawerExpanded={filterDrawerExpanded}
+        setFilterDrawerExpanded={setFilterDrawerExpanded}
         windowWidth={windowWidth}
         drawerExpanded={drawerExpanded}
         setDrawerExpanded={setDrawerExpanded}
@@ -118,7 +119,10 @@ function HandTools() {
         paginate={paginate}
         currentPage={currentPage}
       />
-      <Footer />
+      <FilterDrawer
+        filterDrawerExpanded={filterDrawerExpanded}
+        setFilterDrawerExpanded={setFilterDrawerExpanded}
+      />
       <SortDrawer
         drawerExpanded={drawerExpanded}
         setDrawerExpanded={setDrawerExpanded}
@@ -129,7 +133,7 @@ function HandTools() {
         setSortByRecommended={setSortByRecommended}
         sortedByRecommended={sortByRecommended}
       />
-    </>
+    </RootLayout>
   );
 }
 

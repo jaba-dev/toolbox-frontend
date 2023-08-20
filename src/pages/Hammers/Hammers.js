@@ -8,18 +8,11 @@ import SortDrawer from "../../components/SortDrawer/SortDrawer";
 import UseFetch from "../../components/Hooks/useFetch";
 import Spinner from "../../components/Spinner/Spinner";
 import RootLayout from "../../components/Layouts/RootLayout";
+import FilterDrawer from "../../components/FilterDrawer/FilterDrawer";
 
 function Hammers() {
-  const {
-    baseURL,
-    windowWidth,
-    initialState,
-    setInitialState,
-    cartUpdate,
-    setCartUpdate,
-    cart,
-    setCart,
-  } = useContext(AppContext);
+  const { baseURL, windowWidth, cartUpdate, setCartUpdate, cart, setCart } =
+    useContext(AppContext);
   const [products, setProducts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [productsPerPage] = useState(10);
@@ -27,6 +20,7 @@ function Hammers() {
   const [sortByRecommended, setSortByRecommended] = useState(true);
   const [sortByPriceAsc, setSortByPriceAsc] = useState(false);
   const [sortByPriceDesc, setSortByPriceDesc] = useState(false);
+  const [filterDrawerExpanded, setFilterDrawerExpanded] = useState(false);
   const { data, loading, error } = UseFetch(`${baseURL}/api/products`, {});
   const addToCart = (articleNumber) => {
     const existingItem = cart.find(
@@ -107,6 +101,8 @@ function Hammers() {
     <RootLayout>
       <Breadcrumbs />
       <ProductListingHeader
+        filterDrawerExpanded={filterDrawerExpanded}
+        setFilterDrawerExpanded={setFilterDrawerExpanded}
         windowWidth={windowWidth}
         drawerExpanded={drawerExpanded}
         setDrawerExpanded={setDrawerExpanded}
@@ -124,6 +120,10 @@ function Hammers() {
         totalProducts={products.length}
         paginate={paginate}
         currentPage={currentPage}
+      />
+      <FilterDrawer
+        filterDrawerExpanded={filterDrawerExpanded}
+        setFilterDrawerExpanded={setFilterDrawerExpanded}
       />
       <SortDrawer
         drawerExpanded={drawerExpanded}

@@ -21,7 +21,7 @@
   position: fixed;
   top: 10px;
   left: 10px;
-  z-index: 20;
+  z-index: 5;
   color: #888888;
 }
 .sidebar_collapsed .sidebar_icons svg {
