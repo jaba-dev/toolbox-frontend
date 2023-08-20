@@ -162,7 +162,7 @@
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 550px) {
   .product-price {
     bottom: 24px;
   }

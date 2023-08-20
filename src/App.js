@@ -234,6 +234,7 @@ function App() {
             <Route path="*" element={<ErrorPage />} />
           </Route>
           <Route path="/error-page" element={<ErrorPage />} />
+          <Route path="/product/:id" element={<Product />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </AppContext.Provider>

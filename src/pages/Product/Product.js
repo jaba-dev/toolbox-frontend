@@ -9,8 +9,7 @@ import RootLayout from "../../components/Layouts/RootLayout";
 import Spinner from "../../components/Spinner/Spinner";
 
 function Product() {
-  const { initialState, setInitialState, baseURL, cart, setCart } =
-    useContext(AppContext);
+  const { initialState, baseURL, cart, setCart } = useContext(AppContext);
   const { id } = useParams();
   const [product, setProduct] = useState(null);
   const { data, loading, error } = useFetch(`${baseURL}/api/products`, {});
@@ -58,12 +57,7 @@ function Product() {
       <RootLayout>
         <Breadcrumbs productName={product.name} />
         <div>
-          <div
-            onClick={() => {
-              setInitialState(!initialState);
-            }}
-            className={styles.product}
-          >
+          <div className={styles.product}>
             <div className={styles.productImage}>
               <img src={product.imageURL} alt={product.name} />
             </div>

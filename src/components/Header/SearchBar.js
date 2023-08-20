@@ -77,7 +77,16 @@ function SearchBar({ data }) {
           {filterData.map((value, index) => {
             return (
               <div key={index}>
-                <Link to={`search-page?query=${searchTerm.toLowerCase()}`}>
+                <Link
+                  to={`/search-page?query=${searchTerm.toLowerCase()}`}
+                  onClick={() => {
+                    console.log("click happ");
+                    setTimeout(() => {
+                      console.log("time out");
+                      setFilterData([]);
+                    }, 300);
+                  }}
+                >
                   {value.name}
                 </Link>
               </div>

@@ -96,7 +96,11 @@ function SearchPage() {
             <span>{searchQuery || prevSearchValue}</span>
           </div>
           <div className="search-buttons">
-            <button>
+            <button
+              onClick={() => {
+                setFilterDrawerExpanded(!filterDrawerExpanded);
+              }}
+            >
               <span>FILTER</span>
               <Customize />
             </button>
@@ -133,7 +137,7 @@ function SearchPage() {
                         if (cat !== "all products") {
                           return (
                             <li key={ind}>
-                              <Link>{cat}</Link>
+                              <Link to={`/${cat}`}>{cat}</Link>
                               <span>/</span>
                             </li>
                           );
