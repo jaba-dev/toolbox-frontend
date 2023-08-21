@@ -70,7 +70,7 @@ function Hammers() {
       const filteredData = data.filter((item) => {
         if (
           item.name.toLowerCase().includes("hammer") &&
-          item.categories.includes("hand tools")
+          item.categories.includes("hand-tools")
         ) {
           return item;
         }

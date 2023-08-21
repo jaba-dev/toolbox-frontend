@@ -71,7 +71,7 @@ function CircularSaws() {
       const filteredData = data.filter((item) => {
         if (
           item.name.toLowerCase().includes("circular") &&
-          item.categories.includes("power tools")
+          item.categories.includes("power-tools")
         ) {
           return item;
         }

@@ -68,9 +68,10 @@ function ProductAccordion({ description, specifications, initialState }) {
           <table className={styles.table}>
             <tbody>
               {specKeys.map((key, index) => {
+                const modifiedKey = key.replace(/_/g, "");
                 return (
                   <tr key={index}>
-                    <td>{key}</td>
+                    <td>{modifiedKey}</td>
                     <td>{specValues[index]}</td>
                   </tr>
                 );

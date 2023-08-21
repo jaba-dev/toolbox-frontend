@@ -69,7 +69,7 @@ function HandTools() {
     if (data) {
       setProducts(data);
       const filteredData = data.filter((item) => {
-        if (item.categories.includes("power tools")) {
+        if (item.categories.includes("power-tools")) {
           return item;
         }
       });
